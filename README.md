@@ -1,30 +1,29 @@
-# ✅ Task Overview Dashboard
+# ✅ GTD Tasks Overview
 
 ## 📌 Description
 
-This Power BI dashboard provides a structured overview of personal task management and productivity patterns. It was designed to help visualize how tasks are distributed across time, categories, and priorities — supporting both reflection and planning.
+This Power BI dashboard provides a structured overview of task management and productivity, based on real data pulled via the **Todoist API**. Tasks and projects were organized using the **GTD (Getting Things Done)** methodology — a popular productivity framework that helps manage priorities, focus, and execution.
 
-The data was exported from **Todoist** (or similar task management system) and structured manually or through automation for analysis in Power BI.
-
-> 🔎 This dashboard is built using **static data** (snapshot), ideal for showcasing layout and logic. In a production version, the data could be connected via API for automated refresh.
+The dashboard transforms daily to-do lists into a meaningful visual representation of habits, workload distribution, and performance over time.
 
 ### Key Features:
-- Task completion trends by day and week  
-- Task distribution by label/tag (e.g., QuickTask, LongTask, MarathonTask)  
-- Task status summary (completed vs. pending)  
-- Prioritization and productivity breakdown
+- Task completion trends by date, week, and project
+- Distribution by custom tags such as `QuickTask`, `LongTask`, and `MarathonTask`
+- Task breakdown by GTD categories
+- Overview of active vs. completed tasks
+- Prioritization heatmaps and productivity insights
 
 ---
 
 ## 🎯 Purpose
 
-This dashboard is useful for:
+This dashboard is designed for:
 
-- **Personal productivity analysis**: Gain insight into work habits, bottlenecks, and planning balance  
-- **Task management review**: Understand the types of tasks being tackled and how they evolve over time  
-- **Portfolio presentation**: Demonstrates capability in importing structured to-do data and building task-oriented reporting in Power BI  
-- **Template for business workflows**: Can be extended to team-level reporting or integrated with systems like Planner or Trello
+- **Personal productivity analysis**: Understand how tasks are planned and executed over time  
+- **GTD-based task tracking**: Visualize project structures, contexts, and progress  
+- **Team-level scalability**: Can be extended to track multiple users or teams for performance monitoring  
+- **App integration**: The structure allows for future expansion to include tasks from other systems like Microsoft To Do, Trello, or Notion
 
 ---
 
-💡 _All data shown is fictitious and serves demonstration purposes only. The logic and structure reflect real productivity tracking use cases._
+💡 _All data shown is real but anonymized for presentation purposes. This project demonstrates API integration, GTD-aligned data modeling, and advanced dashboard design in Power BI._
