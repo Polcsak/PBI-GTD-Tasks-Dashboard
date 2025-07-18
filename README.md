@@ -1,29 +1,35 @@
-# ✅ GTD Tasks Overview
+# ✅ GTD Tasks Dashboard
 
-## 📌 Description
+## 📌 What is this about?
 
-This Power BI dashboard provides a structured overview of task management and productivity, based on real data pulled via the **Todoist API**. Tasks and projects were organized using the **GTD (Getting Things Done)** methodology — a popular productivity framework that helps manage priorities, focus, and execution.
+This is a personal dashboard I built in Power BI to better understand how I manage my tasks and projects. The data comes directly from the **Todoist API**, where I organize all my tasks using the **GTD (Getting Things Done)** method. If you're not familiar with GTD – it's a simple, structured way to capture, organize, and complete tasks without feeling overwhelmed.
 
-The dashboard transforms daily to-do lists into a meaningful visual representation of habits, workload distribution, and performance over time.
-
-### Key Features:
-- Task completion trends by date, week, and project
-- Distribution by custom tags such as `QuickTask`, `LongTask`, and `MarathonTask`
-- Task breakdown by GTD categories
-- Overview of active vs. completed tasks
-- Prioritization heatmaps and productivity insights
+I’ve always liked having a visual overview of how my time is spent, what kinds of tasks I focus on, and how consistent I am with completing them. This dashboard gives me that kind of insight.
 
 ---
 
-## 🎯 Purpose
+## 📊 What it shows
 
-This dashboard is designed for:
-
-- **Personal productivity analysis**: Understand how tasks are planned and executed over time  
-- **GTD-based task tracking**: Visualize project structures, contexts, and progress  
-- **Team-level scalability**: Can be extended to track multiple users or teams for performance monitoring  
-- **App integration**: The structure allows for future expansion to include tasks from other systems like Microsoft To Do, Trello, or Notion
+- Task completion over time (daily/weekly)
+- Breakdown of tasks by type – like `QuickTask`, `LongTask`, `MarathonTask`
+- Overview of completed vs. open tasks
+- Priority analysis and tag-based summaries
+- Projects structured using GTD categories
 
 ---
 
-💡 _All data shown is real but anonymized for presentation purposes. This project demonstrates API integration, GTD-aligned data modeling, and advanced dashboard design in Power BI._
+## 🎯 Why I made it
+
+Mainly for myself – to keep track of how I’m doing and spot where I’m spending too much (or too little) time. But the idea could easily be expanded:
+
+- You could connect it to other task tools like Trello or Microsoft To Do  
+- Or use it in a **team setting**, where each team member tracks their own progress the same way  
+- It also works well as part of a **productivity coaching** or **performance tracking** system
+
+---
+
+> 🔐 Real data is used in the dashboard, but it's been cleaned and anonymized for demo purposes.
+
+---
+
+If you're curious how it works behind the scenes (API, structure, etc.), let me know – I’m happy to share more.
